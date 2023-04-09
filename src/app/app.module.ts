@@ -11,6 +11,7 @@ import { ProductTracklistingComponent } from './product-tracklisting/product-tra
 import { ProductListComponent } from './product-list/product-list.component';
 
 import { RouterModule, Routes } from '@angular/router';
+import { HatdogComponent } from './hatdog/hatdog.component';
 
 const appRoutes:Routes = [{
   path:'products',
@@ -33,7 +34,8 @@ const appRoutes:Routes = [{
     ProductPageComponent,
     ProductDescriptionComponent,
     ProductTracklistingComponent,
-    ProductListComponent
+    ProductListComponent,
+    HatdogComponent
   ],
   imports: [
     BrowserModule,
